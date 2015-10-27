@@ -1,8 +1,8 @@
 version: 0.0
 os: linux
 files:
-  - source: /hello.rb
-    destination: /home/api/
+  - source: /
+    destination: /var/www/my_awesome_rails_app/
 #hooks:
  # BeforeInstall:
   #  - location: scripts/install_dependencies
